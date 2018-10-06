@@ -4,7 +4,7 @@
 
     <groupId>jenkins.coaching</groupId>
     <artifactId>EQS-training-sample-app</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.4-SNAPSHOT</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -65,10 +65,10 @@
             <url>http://artifacts.neuw.tech:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
-    <!--<scm>
-        <developerConnection>scm:git:http://artifacts.neuw.tech:8081/repository/maven-snapshots/</developerConnection>
-      <tag>EQS-training-sample-app-0.1.1</tag>
-  </scm>-->
+    <scm>
+        <developerConnection>scm:git:https://github.com/rishikhuranasufi/jenkins-coaching</developerConnection>
+		<tag>EQS-training-sample-app-0.1.4</tag>
+	</scm>
     <build>
         <plugins>
             <plugin>
