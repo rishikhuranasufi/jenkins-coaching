@@ -1,2 +1,2 @@
 # jenkins-coaching
-manually added for trigger 5
+manually added for trigger 6
